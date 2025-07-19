@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { amber } from "tailwindcss/colors";
 
 export default {
   content: [
@@ -11,6 +12,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        secondary: amber,
       },
     },
   },
