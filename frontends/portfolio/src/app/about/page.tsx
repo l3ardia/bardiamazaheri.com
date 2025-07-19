@@ -50,14 +50,6 @@ export default function About() {
         composing game soundtracks.
       </p>
       <Timeline items={items} />
-      <h2 className="text-2xl font-bold mt-12 mb-4">Full Story</h2>
-      <p className="text-gray-600 mb-8">
-        Father. Husband. Engineer. My journey began at nine, when strict
-        “one‑hour‑of‑games” rules pushed me from playing to making them.
-        Mr Hossein Rezaei introduced me to QBasic, and curiosity did the rest. At
-        17 I sold a WinAmp‑style player with playlist support—proof that passion
-        could pay.
-      </p>
     </AnimatedSection>
   );
 }
