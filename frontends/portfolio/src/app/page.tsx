@@ -8,12 +8,12 @@ export default function Home() {
       {/* Hero */}
       <AnimatedSection>
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
-          Contract\u00A0Tech Lead<br className="hidden md:block" /> who scales SaaS
+          Contract Tech Lead<br className="hidden md:block" /> who scales SaaS
           faster.
         </h1>
         <p className="max-w-xl text-lg text-gray-600 mb-8">
           I help product teams deliver integrations, CI/CD automation, and cloud
-          architecture without the full\u2011time overhead.
+          architecture without the full-time overhead.
         </p>
         <Link
           href="/contact"
@@ -27,7 +27,7 @@ export default function Home() {
       <AnimatedSection>
         <h2 className="text-2xl font-bold mb-4">Featured Work</h2>
         <p className="text-gray-600 mb-8">
-          Hand\u2011picked projects that show the breadth of integration & cloud work
+          Hand-picked projects that show the breadth of integration & cloud work
           I deliver.
         </p>
         {/* Later map through project cards */}

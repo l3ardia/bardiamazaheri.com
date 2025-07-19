@@ -20,7 +20,7 @@ export const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-4">
-        <Link href="/" className="font-bold text-lg">Bardia\u00A0Mazaheri</Link>
+        <Link href="/" className="font-bold text-lg">Bardia Mazaheri</Link>
         <button
           className="md:hidden p-2"
           onClick={() => setOpen(!open)}

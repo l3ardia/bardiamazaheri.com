@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 
 export const AnimatedSection = ({ children }: { children: React.ReactNode }) => (
