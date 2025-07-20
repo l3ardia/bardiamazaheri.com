@@ -113,6 +113,8 @@ export const skillCategories: SkillCategory[] = [
       "Prompt Engineering",
       "AI Model Integration",
       "Machine Learning",
+      "Cursor",
+      "Codex"
     ],
   },
   
