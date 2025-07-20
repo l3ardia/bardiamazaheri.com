@@ -7,10 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: "Bardia\u00A0Mazaheri \u2013\u00A0Tech Lead & Engineer",
-    template: "%s | Bardia\u00A0Mazaheri",
+    default: "Bardia Mazaheri - Tech Lead & Engineer",
+    template: "%s | Bardia Mazaheri",
   },
-  description: "Portfolio and blog of Bardia\u00A0Mazaheri, contract Tech Lead and Integration Engineer.",
+  description: "Portfolio and blog of Bardia Mazaheri, contract Tech Lead and Integration Engineer.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

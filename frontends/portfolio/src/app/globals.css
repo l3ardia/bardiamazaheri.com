@@ -6,3 +6,29 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* ===== Custom Golden Timeline Utilities ===== */
+@layer utilities {
+  .gold-bg {
+    background: radial-gradient(
+        circle at 30% 30%,
+        #fffbe6 0%,
+        #ffe066 40%,
+        #f6c425 70%,
+        #b8860b 100%
+      );
+    box-shadow:
+      0 0 8px 2px rgba(255, 215, 0, 0.6),
+      inset 0 0 4px rgba(0, 0, 0, 0.2);
+  }
+
+  @keyframes gold-glow {
+    0%   { box-shadow: 0 0 6px rgba(255, 215, 0, 0.4); }
+    50%  { box-shadow: 0 0 14px rgba(255, 215, 0, 0.9); }
+    100% { box-shadow: 0 0 6px rgba(255, 215, 0, 0.4); }
+  }
+
+  .animate-gold {
+    animation: gold-glow 2.5s ease-in-out infinite;
+  }
+}
