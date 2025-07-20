@@ -12,7 +12,6 @@ import {
   Box,
   Plane,
   Server,
-  Users,
 } from "lucide-react";
 
 const items: TimelineItem[] = [
