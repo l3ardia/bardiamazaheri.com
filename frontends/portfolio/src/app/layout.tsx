@@ -1,17 +1,11 @@
+"use client";
+
 import "./globals.css";
 import { ReactNode } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata = {
-  title: {
-    default: "Bardia Mazaheri - Tech Lead & Engineer",
-    template: "%s | Bardia Mazaheri",
-  },
-  description: "Portfolio and blog of Bardia Mazaheri, contract Tech Lead and Integration Engineer.",
-};
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
