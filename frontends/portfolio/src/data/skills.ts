@@ -134,7 +134,6 @@ export const skillCategories: SkillCategory[] = [
   {
     title: "Additional Libraries & Frameworks",
     items: [
-      "PUN",
       "Metabase",
       "Tableau",
       "SAP HR",
