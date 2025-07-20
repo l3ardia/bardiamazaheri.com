@@ -1,5 +1,5 @@
 {
-  "name": "dashboard",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -23,5 +23,8 @@
     "react-icons": "^5.4.0",
     "react-jwt": "^1.2.2",
     "react-vertical-timeline-component": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/react-vertical-timeline-component": "^3.3.6"
   }
 }
