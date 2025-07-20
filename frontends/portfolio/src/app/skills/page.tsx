@@ -6,6 +6,7 @@ import { skillCategories } from "@/data/skills";
 import Link from "next/link";
 import { ArrowDown, ArrowUp } from "lucide-react";
 import { gameSkills } from "@/data/gameSkills";
+import { GameSkillIcons } from "@/components/GameSkillIcons";
 
 export default function Skills() {
   return (
@@ -30,7 +31,6 @@ export default function Skills() {
 
       <div id="game-skills" className="mt-20">
         <h2 className="text-2xl font-bold mb-6">Game Development Skills</h2>
-
         <p className="my-6">
           <Link
             href="#top"
@@ -40,6 +40,7 @@ export default function Skills() {
             <ArrowUp size={18} />
           </Link>
         </p>
+        <GameSkillIcons />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {gameSkills.map((cat) => (
