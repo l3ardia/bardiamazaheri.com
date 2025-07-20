@@ -11,7 +11,7 @@ export default function Contact() {
         {/* Left column - Info */}
         <div className="text-gray-700 space-y-6">
           <p>
-            I'm open to new collaborations if I have the capacity. You can
+            I&apos;m open to new collaborations if I have the capacity. You can
             contact me for:
           </p>
           <ul className="list-disc list-inside pl-4 space-y-1">
