@@ -1,3 +1,5 @@
+"use client";
+
 import { AnimatedSection } from "@/components/AnimatedSection";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
